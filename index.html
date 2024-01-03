@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-COMPATIBLE" content="IE-edge">
+        <meta name="viewport" content="width=device-width , intial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="port.css">
+        <script src="https://kit.fontawesome.com/d97393438e.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="/Users/tejeswarreddy/portfolio/logo.png"  class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#services">services</a></li>
+                        <li><a href="#portfolio">portfolio</a></li>
+                        <li><a href="#contact">contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+
+                </nav>
+                <div class="header_text">
+                    <p>UI/Ux Designer</p>
+                    <h1>Hi,I'm <span>Tejeswar Reddy</span><br> From Gitam </h1>
+                </div>
+            </div>
+        </div>
+<!----------------about------>
+        <div id="about">
+            <div class="container">
+
+                <div class="ro1">
+                    <div class="about-col1"><img src="pass.jpg"></div>
+                    <div class="about-col2">
+                        <h1 class="subtitle">About me</h1>
+                        <p>As an aspiring student currently pursuing my third year ni Bachelor of Technology,
+                             Computer Science and Engineering at GITAM Institute of Technology Visakhapatnam,
+                              I am driven and focused on seeking a challenging career ni a growth-oriented organization. My goal is ot unleash my 
+                              skills and abilities while fostering mutual growth perspectives through exposure to the latest technologies</p>
+                        <div class="tabtiles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Projects')">Projects</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><BR>Designing web/app interfaces</li>
+                                    <li><span>Web Development</span><BR>Web app development</li>
+                                        <li><span>App Develpoment</span><BR>Building Android/ios apps</li>
+
+
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>05/23 - 08/23</span><BR>Data analyst intern at <span>cyient ltd Hyd</span></li>
+                                    <li><span>02/23 -05/23</span><BR>Web development internship<span>smart knower</span></li>
+                                       
+
+
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Projects">
+                            <ul>
+                                <li><span>08/22 - 05/23</span><BR>E commerce web site</li>
+                                    <li><span>Web Development</span><BR>Web app development</li>
+                                        <li><span>App Develpoment</span><BR>Building Android/ios apps</li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+<!----------------------services-->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="servies-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p> i do web design with atmost creativenesss</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p> i do UI/UX design with atmost creativenesss</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p> i do App design with atmost creativenesss</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+         <div class="worklist">
+            <div class="work">
+                <img src="w1.png">
+                <div class="layer">
+                    <h3>speil</h3>
+                    <p>the app is to study books online</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="w3.png">
+                <div class="layer">
+                    <h3>redstore</h3>
+                    <p>the app is a e-commerce web site</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="w2.png">
+                <div class="layer">
+                    <h3>e-commerce</h3>
+                    <p>the app is to buy clothes and sport wear</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+         </div>
+         <a href="#" class="btn">See more</a>
+    </div>
+
+
+</div>
+<!--------------------conatact-->
+<div id="contact">
+    <div class="container">
+        <div class="ro1">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> tejeswarreddynaru333@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 7989037070</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="tej_cv.pdf" download class="btn btn2">Download cv</a>
+            </div>
+            <div class="contact-right">
+                <form >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" id="" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+
+                </form>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-------------------footer-->
+
+        <script>
+            var tablinkes=document.getElementsByClassName("tab-links");
+            var tabcontents=document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinkes){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+
+            }
+        </script>
+        <script>
+            var sidemenu=document.getElementById("sidemenu");
+            function closemenu(){
+                sidemenu.style.right="-200px";
+
+            }
+            function openmenu(){
+                sidemenu.style.right="0";
+
+            }
+        </script>
+    </body>
+    
+</html>
